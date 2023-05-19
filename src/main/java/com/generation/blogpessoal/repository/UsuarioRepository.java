@@ -8,6 +8,6 @@ import com.generation.blogpessoal.model.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 
-	public Optional<Usuario> findByUsuario(String usuario);
+	 Optional<Usuario> findByUsuario(String usuario);
 	
 }
